@@ -17,9 +17,7 @@ public class Books {
 	@Column
 	private String bookingRef;
 	
-	public String getBookingRef() {
-		return "94558c91-f344-4ddd-b160-2c64625f7d29";
-	}
+	
 
 	public void setBookingRef(String bookingRef) {
 		this.bookingRef = bookingRef;
@@ -87,6 +85,10 @@ public class Books {
 
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
+	}
+	
+	public String getBookingRef() {
+		return "94558c91-f344-4ddd-b160-2c64625f7d29";
 	}
 
 	public Books(ContainerType containerType, String bookname, String origin, int containerSize, String destination,
